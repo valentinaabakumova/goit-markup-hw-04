@@ -319,7 +319,7 @@ body {
 }
 
 .team-item-header {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -366,7 +366,8 @@ body {
 
 .logofoot {
   /* padding-top: 60px; */
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
 }
 
 .address-list {
@@ -375,7 +376,7 @@ body {
 }
 
 .address-item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .footer {
   padding: 60px 0;
@@ -538,16 +539,19 @@ position: absolute !important;
   /* margin-top: 4px; */
 }
 
+.work-pic-item {
+  margin-right: 30px;
+}
 .work-pic-item:nth-child(3n + 3) {
   margin-right: 0;
 }
 
-.work-pic-item {
-  margin-right: 30px;
-}
-
 .work-pic-item:not(:nth-child(-n + 3)) {
   margin-bottom: 30px;
+}
+
+.work-pic-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .work {
